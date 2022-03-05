@@ -1,0 +1,269 @@
+html {
+    font-size: 16px;
+}
+
+
+/*Header*/
+.cabecalho {
+    padding: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dbd8d8;
+}
+
+.cabecalho img {
+    float: left;
+}
+
+.cabecalho h1 {
+    float: right;
+    color: rgb(111, 137, 162);
+    font-size: 2rem;
+}
+/*Fim Header*/
+
+/*Formulário + Radio*/
+.title-form legend{
+    border-bottom: 1px solid rgb(172, 224, 216);
+    padding: 10px;
+    text-align: center;
+}
+
+.title-form {
+    display: flex;
+    align-items: center;
+}
+
+.title-form img {
+    width: 48px;
+    align-items: center;
+}
+
+
+
+#button{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#form-container{
+    width: 100%;
+    height: 91vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#form-container-alimentacao{
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-container-peso{
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-container-medicacao {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-container-alimentacao .form-control{
+    border: none;
+    border-bottom: 1px solid rgb(172, 224, 216);
+}
+
+#form-container-peso .form-control {
+    border: none;
+    border-bottom: 1px solid rgb(172, 224, 216);
+}
+
+#form-container-medicacao .form-control {
+    border: none;
+    border-bottom: 1px solid rgb(172, 224, 216);
+}
+
+#form-container-medicacao .form-control:focus {
+    box-shadow: none;
+}
+
+#form-container-peso .form-control:focus {
+    box-shadow: none;
+}
+
+#form-container-alimentacao .form-control:focus {
+    box-shadow: none;
+}
+
+
+#form-container .form-control {
+
+    border: none;
+    border-bottom: 1px solid rgb(172,224,216);   
+}
+
+#form-container .form-control:focus {
+    box-shadow: none;
+}
+
+
+#form-container .form-floating label {
+    color: rgb(111, 137, 162);
+}
+
+#form-container .form-floating>.form-control:focus~label {
+    color: #76A191;
+}
+
+.form-select{
+    border: none;
+    border-bottom: 1px solid rgb(172, 224, 216);
+    border-radius: 0;
+    height: 55px;
+    width: 100%;
+
+}
+
+.form-select:focus{
+    box-shadow: none;
+}
+
+.form-select:focus~label{
+    color:rgb(172, 224, 216)
+}
+
+
+.btn-primary {
+    background-color: rgb(111,137,162);
+    border-color: rgb(111, 137, 162);
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 15px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+
+}
+
+.btn-primary:hover {
+    background-color:rgb(172,224,216) ;
+    border-color:rgb(172,224,216) ;
+
+}
+
+.btn-primary:active {
+    background-color: rgb(111,137,162);
+    border-color: rgb(111, 137, 162);
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+}
+
+
+.col {
+    position: relative;
+    list-style: none;
+    width: 50px;
+    height: 40px;
+    z-index: 1;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+   
+
+}
+
+.row.justify-content-center {
+    color: rgb(172, 224, 216);
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.row.justify-content-center h2 {
+    color: rgb(172, 224, 216);
+    padding: 20px;
+    align-items: center;
+}
+
+
+
+.radio {
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(111, 137, 162);
+    margin: 2px;
+    padding: 30px;
+}
+
+/* Fim Formulário + Radio*/
+
+
+
+/* responsividade */
+
+@media(max-width: 512px){
+    
+    .cabecalho img{
+        width: 40px;
+    }
+
+    .cabecalho h1{
+        font-size: medium;
+    }
+
+    .cabecalho{
+        height: 50px;
+    }
+    
+    .btn{
+        font-size: small;
+    }
+
+    .title-form legend{
+        font-size: 16px;
+    }
+
+   
+
+
+}
+
+
+
+ @media (min-width:768px) {
+     .container {
+         width: 600px;
+
+         box-shadow: 5px 10px 15px rgba(0, 0, 0, .2);
+
+     }
+ }

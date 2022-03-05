@@ -1,0 +1,205 @@
+html {
+    font-size: 16px;
+}
+
+/*Estilo do Header*/
+.cabecalho {
+    padding: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dbd8d8;
+}
+
+.cabecalho img {
+    float: left;
+}
+
+.cabecalho h1 {
+    float: right;
+    color: rgb(111, 137, 162);
+    font-size: 2rem;
+}
+
+/*Fim Estilo do Header*/
+
+
+/*Layout dos links do container*/
+a {
+    color: #222;
+    transition: .5s;
+}
+
+a:hover {
+    color: #a4decf;
+}
+/*Fim Layout dos links do container*/
+
+
+/*Layout das labels do formulário*/
+.form-control {
+ 
+    border-bottom: 1px solid #CCC;
+    border-radius: 40px;
+    background: rgb(243, 240, 240);
+    border: none;
+    height: 55px;
+    width: 100%;
+}
+
+.form-control:focus {
+    box-shadow: none;
+     border:1px solid #76A191;
+}
+
+.form-floating label{
+    color: #ccc;  
+    
+}
+
+.form-floating > .form-control:focus~label {
+    color: #76A191;
+}
+/*Fim Layout das labels do formulário*/
+
+
+/*Layout do botão "acessar" do formulário*/
+.btn-primary{
+    width: 100%;
+    border-radius: 30px;
+    height: 45px;
+    background-color: #9FDAD1;
+    border: #9FDAD1;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0.6em 1.2em;
+    
+}
+
+.btn-primary:hover{
+    background-color: rgb(111, 137, 162);
+    
+}
+/*Fim Layout do botão "acessar" do formulário*/
+
+
+/*Alinha o link para o centro*/
+#link-container{
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid rgb(172,224,216);
+}
+
+#link-container-login {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid rgb(172,224,216);
+}
+/*Alinha o link para o centro*/
+
+
+
+/*Tamanho do Icones das Redes Sociais*/
+
+.img-fluid{
+    width: 20px;
+}
+
+/*Fim Tamanho do Icones das Redes Sociais*/
+
+/*Layout dos ícones das Redes Sociais*/
+.social-text{
+    padding: 0.7em 0;
+    font-weight: 600;
+    color: rgb(0,106,166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+
+.social-icon{
+    height: 46px;
+    width: 46px;
+    margin: 0 0 .45em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Fim Layout dos ícones das Redes Sociais*/
+
+/*Alinha os itens do formulário ao centro*/
+.row.align-items-center {
+    align-content: center;
+    padding: 75px 0;
+    
+}
+/*Alinha os itens do formulário ao centro*/
+
+/*Tudo que for acima de 768px*/
+@media (min-width:768px){
+    .container{
+        width: 600px;
+        
+        box-shadow: 5px 10px 15px rgba(0, 0, 0, .2);
+    
+    }
+}
+
+
+/* fim coloca borda 3D no container*/
+
+@media(max-width: 512px) {
+
+
+    .cabecalho img {
+        width: 40px;
+    }
+
+    .cabecalho h1 {
+        font-size: medium;
+    }
+
+    .cabecalho {
+        height: 50px;
+    }
+
+    #list img {
+        width: 40px;
+    }
+
+    .descricao {
+        font-size: small;
+    }
+
+    #head-list p {
+        font-size: 12px;
+    }
+
+    .navbar-menu a {
+        font-size: 10px;
+    }
+
+    #table-card td {
+        font-size: small;
+    }
+
+    .card p {
+        font-size: 10px;
+    }
+
+}

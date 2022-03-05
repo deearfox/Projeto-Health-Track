@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/home_styles.css">
+
+    <title>home - Health Track</title>
+
+    <link rel="shortcut icon" href="assets/img/outras/favLogoHealthTrack.ico" type="image/x-icon">
+    
+    <!--Google Fonts - Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+    <!--Icones Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    <!--Container do Header-->
+    <div class="container">
+        <header class="cabecalho">
+
+                <div>
+                    <img src="assets/img/outras/LogoHealthTrack.png" alt="Logo Health Track">
+                </div>
+
+                <div>
+                    <h1 class="text-uppercase"> <b>Health Track</b></h1>
+                </div>
+
+          </header>
+    </div>   
+    <!--Fim Container do Header-->
+
+    <!--Navbar da home-->
+    <div class="container">  
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">     
+
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="assets/img/outras/Bell.png" alt="notificacao">
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="text-decoration-none">
+                            <img src="assets/img/outras/PersonCall.png"  alt="Fale Conosco">
+                            <span class="personcall d-block">Fale Conosco</span>
+                       </a>
+                    </li>
+                </ul>         
+            </div>
+        </nav>
+        <!--Fim Navbar da home-->
+
+        <!--Introdução de Bem-vindo-->
+        <div class="container" id="welcome-container">
+            <div class="col-12">
+                <div class="row">
+                    <h2 >Bem vindo(a), <b>a Health Track</b> </h2>
+                    <form class="d-flex" id="search-form">
+                        <input type="search" class="form-control me-2" placeholder="Procure o que deseja"
+                            aria-label="Procure o que deseja">
+                        <button class="btn secondary-bg-color" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--Fim Introdução de Bem-vindo-->
+
+        <!--Início dos CARDS-->
+
+        <div class="container my-3">
+            <!--linha do grid-->
+            <div class="row">
+
+                <!--1a coluna do grid-->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-3">
+                    <div class="card text-center" id="mini-banners">
+                        <div>
+                            <img src="assets/img/cards/1_Atividades.png" class="card-img-top" alt="Atividades">
+                        </div>                     
+                        <div class="card-body">
+                            <h3 class="card-title">Atividades Físicas</h3>
+                            <p class="card-text">Acesse aqui seu diário ou personalize seu diário.</p>
+                            <a href="assets/pages/Diario_Treinos.html" class="btn btn-primary">Acessar</a>
+                            <a href="assets/pages/C_Exercicio.html" class="btn btn-primary">Cadastrar</a>
+                        </div>
+                    </div>
+                </div>
+                <!--fim 1a coluna do grid-->
+
+                <!--2a coluna do grid-->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-3">
+                    <div class="card text-center" id="mini-banners">
+                        <div>
+                            <img src="assets/img/cards/2_Alimentacao.png" class="card-img-top" alt="Alimentação">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Diário Alimentação</h3>
+                            <p class="card-text">Acesse aqui seu diário ou personalize seu diário.</p>
+                            <a href="assets/pages/Diario_Alimentacao.html" class="btn btn-primary">Acessar</a>
+                            <a href="assets/pages/C_Alimentacao.html" class="btn btn-primary">Cadastrar</a>
+                        </div>
+                    </div>
+                </div>
+                <!--fim 2a coluna do grid-->
+
+                <!--3a coluna do grid-->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-3">
+                    <div class="card text-center" id="mini-banners">
+                        <div>
+                            <img src="assets/img/cards/3_Peso.png" class="card-img-top" alt="Peso">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Diário Peso</h3>
+                            <p class="card-text">Acesse aqui seu diário ou personalize seu diário.</p>
+                            <a href="assets/pages/Diario_Peso.html" class="btn btn-primary">Acessar</a>
+                            <a href="assets/pages/C_Peso.html" class="btn btn-primary">Cadastrar</a>
+                        </div>
+                    </div>
+                </div>
+                <!--fim 3a coluna do grid-->
+
+                <!--4a coluna do grid-->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-3">
+                    <div class="card text-center" id="mini-banners">
+                        <div>
+                            <img src="assets/img/cards/4_Nutri.png" class="card-img-top" alt="Nutricionista">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Nutricionista</h3>
+                            <p class="card-text">Entre em contato com a Nutricionista.</p>
+                            <a href="assets/pages/F_Nutricionista.html" class="btn btn-primary">Contato</a>                           
+                        </div>
+                    </div>
+                </div>
+                <!--fim 4a coluna do grid-->
+
+                <!--5a coluna do grid-->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-3">
+                    <div class="card text-center" id="mini-banners">
+                        <div>
+                            <img src="assets/img/cards/5_Personal.png" class="card-img-top" alt="Personal Trainer">
+                        </div>                     
+                        <div class="card-body">
+                            <h3 class="card-title">Personal Trainer</h3>
+                            <p class="card-text">Entre em contato com a Nutricionista.</p>
+                            <a href="assets/pages/F_PersonalTrainer.html" class="btn btn-primary">Contato</a>
+                        </div>
+                    </div>
+                </div>
+                <!--fim 5a coluna do grid-->
+
+                <!--6a coluna do grid-->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-3">
+                    <div class="card text-center" id="mini-banners">
+                        <div>
+                            <img src="assets/img/cards/6_Medicacao.png" class="card-img-top" alt="Medicação">
+                        </div>                     
+                        <div class="card-body">
+                            <h3 class="card-title">Diário Medicação</h3>
+                            <p class="card-text">Entre em contato com a Nutricionista.</p>
+                            <a href="#" class="btn btn-primary">Acessar</a>
+                            <a href="assets/pages/C_Medicacao.html" class="btn btn-primary">Cadastrar</a>
+                        </div>
+                    </div>
+                </div>
+                <!--fim 6a coluna do grid-->
+
+            </div>
+            <!--Fim linha do grid-->
+        </div>
+
+        <!--Fim dos CARDS-->
+
+        <!--Navbar Rodapé-->
+        <div class="container">
+              
+                <div class="col-12">
+
+                     <nav class="nav">
+
+                         <a href="#" class="nav__link">
+                             <i class="material-icons nav__icon">home</i>
+                             <span class="nav__text">Home</span>
+                         </a>
+
+                         <a href="#" class="nav__link">
+                             <i class="material-icons nav__icon">search</i>
+                             <span class="nav__text">Pesquisar</span>
+                         </a>
+
+                         <a href="#" class="nav__link">
+                             <input type="submit" class="btn btn-primary" id="center-button" value="+">
+                             <div class="line"></div>
+                             <span class="nav__text"></span>
+                         </a>
+
+                         <a href="#" class="nav__link">
+                             <i class="material-icons nav__icon">app_registration</i>
+                             <span class="nav__text">Editar</span>
+                         </a>
+
+                         <a href="#" class="nav__link">
+                             <i class="material-icons nav__icon--active">account_circle</i>
+                             <span class="nav__text">Perfil</span>
+                         </a>
+
+                     </nav>
+
+                 </div>
+
+            </div>
+         </div>
+          
+        <!--Fim Navbar Rodapé-->
+         <!-- fusfihs -->
+
+   
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    
+</body>
+
+</html>

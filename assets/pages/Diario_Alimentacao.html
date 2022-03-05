@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/diary_styles.css">
+
+    <title>Diário de Alimentação</title>
+
+    <link rel="shortcut icon" href="../img/outras/favLogoHealthTrack.ico" type="image/x-icon">
+
+    <!--Google Fonts - Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Icones Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    
+    <div class="container my-4" id="form-container">
+        <!--Header-->
+        <header class="cabecalho">
+
+            <div>
+                <img src="../img/outras/LogoHealthTrack.png" alt="Logo Health Track">
+            </div>
+
+            <div>
+                <h1 class="text-uppercase"> <b>Health Track</b></h1>
+            </div>
+
+        </header>       
+        <!--Header-->
+
+        <!--título + navbar diário-->
+        <div class="col-12">
+            <div class="row justify-content-center py-3">
+                 <div class="title-head py-3">
+                     <a href="../../home.html">
+                         <img src="../img/outras/voltar.png"  alt="voltar home">
+                     </a>
+                     <legend class="fs-2"><b>Diário de Alimentação</b></legend>
+                 </div>
+        
+
+                 <nav class="navbar-menu py-2">
+                     <div class="row justify-content-center" id="nav-menu">
+                         <a href="#" class="text-uppercase">Café da Manhã</a>
+                         <a href="#" class="nav-link active text-uppercase">Almoço</a>
+                         <a href="#" class="text-uppercase">Jantar</a>
+                         <a href="#" class="text-uppercase">Lanche</a>
+                     </div>
+                 </nav>
+
+        <!--fim título + navbar diário-->
+
+        <!--Lista de Alimentos-->
+                 <div class="row justify-content-between" id="head-list">
+                     <div class="col-4">
+                         <p class="text-uppercase"><b>Almoço</b></p>
+                     </div>
+                     <div class="col-4">
+                         <p class="descricao"> <b>Calorias</b></p>
+                         <p class="descricao">1.155</p>
+                     </div>
+                 </div>
+
+            <!--Alimento 1-->
+            <div class="row justify-content-between" id="list">
+                <div class="col-4">
+                    <img src="../img/outras/ArrozBranco.png" alt="Arroz Branco">
+                </div>
+                <div class="col-4">
+                    <p class="descricao"> <b>Arroz branco</b></p>
+                    <p class="descricao">Quantidade: 4 colheres de sopa</p>
+                </div>
+                <div class="col-4">
+                    <p class="descricao">300</p>
+                </div>
+            </div>
+
+            <!--Alimento 2-->
+            <div class="row justify-content-between" id="list">
+                <div class="col-4">
+                    <img src="../img/outras/Alface.png"  alt="Alface">
+                </div>
+                <div class="col-4">
+                    <p class="descricao"> <b>Alface</b></p>
+                    <p class="descricao">Quantidade: 4 folhas grande</p>
+                </div>
+                <div class="col-4">
+                    <p class="descricao">125</p>
+                </div>
+            </div>
+            
+
+            <!--Alimento 3-->
+            <div class="row justify-content-between" id="list">
+                <div class="col-4">
+                    <img src="../img/outras/Sopa.png"  alt="Sopa">
+                </div>
+                <div class="col-4">
+                    <p class="descricao"> <b>Sopa</b></p>
+                    <p class="descricao">Quantidade: 300 ml</p>
+                </div>
+                <div class="col-4">
+                    <p class="descricao">125</p>
+                </div>
+            </div>
+
+            <!--Alimento 4-->
+            <div class="row justify-content-between" id="list">
+                <div class="col-4">
+                    <img src="../img/outras/Chocolate.png" alt="Chocolate">
+                </div>
+                <div class="col-4">
+                    <p class="descricao"> <b>Chocolate</b></p>
+                    <p class="descricao">Quantidade: 1/4 barra de 100g</p>
+                </div>
+                <div class="col-4">
+                    <p class="descricao">380</p>
+                </div>
+            </div>
+            
+        <!--Fim Lista de Alimentos-->
+
+        <!--Navbar Rodapé-->
+        <div class="col-12">
+
+            <nav class="nav">
+
+                <a href="../../home.html" class="nav__link">
+                    <i class="material-icons nav__icon">home</i>
+                    <span class="nav__text">Home</span>
+                </a>
+
+                <a href="#" class="nav__link">
+                    <i class="material-icons nav__icon">search</i>
+                    <span class="nav__text">Pesquisar</span>
+                </a>
+
+               <a href="#" class="nav__link">
+                   <input type="submit" class="btn btn-primary" id="center-button" value="+">
+                   <div class="line"></div>
+                   <span class="nav__text"></span>
+               </a>
+
+                <a href="#" class="nav__link">
+                    <i class="material-icons nav__icon">app_registration</i>
+                    <span class="nav__text">Editar</span>
+                </a>
+
+                <a href="#" class="nav__link">
+                    <i class="material-icons nav__icon--active">account_circle</i>
+                    <span class="nav__text">Perfil</span>
+                </a>
+
+            </nav>
+
+        </div>
+         <!--Fim Navbar Rodapé-->
+
+    </div>
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
